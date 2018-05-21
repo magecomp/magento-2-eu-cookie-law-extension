@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="magecomp" translate="label" sortOrder="100">
+            <label>
+                <![CDATA[<img src="https://www.magecomp.com/media/images/magecomp--extension.png" alt="MAGECOMP" height="25" style="vertical-align:middle;"/>]]></label>
+        </tab>
+        <section id="cookiecompliance" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <class>separator-top</class>
+            <label>Cookie Compliance</label>
+            <tab>magecomp</tab>
+            <resource>Magecomp_Cookiecompliance::cookiecompliance</resource>
+            <group id="cookiegroup" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Cookie Compliance</label>
+                <field id="status" translate="label comment" type="select" sortOrder="1" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Cookie Compliance</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="cookietext" translate="label comment" type="text" sortOrder="2" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Cookie Text Message</label>
+                    <depends>
+                        <field id="status">1</field>
+                    </depends>
+                </field>
+                <field id="cookiemoreinfo" translate="label comment" type="text" sortOrder="3" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>More Information</label>
+                    <depends>
+                        <field id="status">1</field>
+                    </depends>
+                </field>
+                <field id="cookiemoreinfolink" translate="label comment" type="text" sortOrder="4" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>More Information Link</label>
+                    <comment>
+                        <![CDATA[The URL where the user will find more information regarding cookie policy e.g http://www.yourstore.com/privacy-policy]]></comment>
+                    <depends>
+                        <field id="status">1</field>
+                    </depends>
+                </field>
+                <field id="cookiemoreinfotarget" translate="label comment" type="select" sortOrder="4" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>More Information Link Target Area</label>
+                    <source_model>Magecomp\Cookiecompliance\Model\Config\Source\Target</source_model>
+                    <depends>
+                        <field id="status">1</field>
+                    </depends>
+                </field>
+                <field id="cookiehidetext" translate="label comment" type="text" sortOrder="5" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Cookie Button Text</label>
+                    <depends>
+                        <field id="status">1</field>
+                    </depends>
+                </field>
+            </group>
+            <group id="headcode" translate="label" type="text" sortOrder="15" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>GA and FB Pixel Integration</label>
+                <field id="facbookpixelenale" translate="label comment" type="select" sortOrder="1" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Facbook Pixel Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="facebookcode" translate="label comment" type="text" sortOrder="2" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Facbook Pixel Code</label>
+                    <depends>
+                        <field id="facbookpixelenale">1</field>
+                    </depends>
+                </field>
+                <field id="analyticsenable" translate="label comment" type="select" sortOrder="3" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Google Analytics Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="googleanalytics" translate="label comment" type="text" sortOrder="4" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Google Analytics Code</label>
+                    <depends>
+                        <field id="analyticsenable">1</field>
+                    </depends>
+                </field>
+            </group>
+            <group id="cookiestyle" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Cookie Style</label>
+                <depends>
+                    <field id="status">1</field>
+                </depends>
+                <field id="cookieposition" translate="label" type="select" sortOrder="7" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Cookie Notice Position</label>
+                    <comment><![CDATA[Set Position for Cookie Notice]]></comment>
+                    <source_model>Magecomp\Cookiecompliance\Model\Config\Source\Position</source_model>
+                </field>
+                <field id="cookiemsgbgcolor" translate="label" type="text" sortOrder="8" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Background Color</label>
+                    <comment><![CDATA[Set  Background color for Cookie Notice]]></comment>
+                    <frontend_model>Magecomp\Cookiecompliance\Block\Color</frontend_model>
+                </field>
+                <field id="cookietextcolor" translate="label" type="text" sortOrder="9" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Cookie Text Color</label>
+                    <comment><![CDATA[Set Cookie Text color for Cookie Notice]]></comment>
+                    <frontend_model>Magecomp\Cookiecompliance\Block\Color</frontend_model>
+                </field>
+                <field id="cookieacceptcolor" translate="label" type="text" sortOrder="10" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Button Text Color</label>
+                    <comment><![CDATA[Set Button Text Text color for Cookie Notice]]></comment>
+                    <frontend_model>Magecomp\Cookiecompliance\Block\Color</frontend_model>
+                </field>
+                <field id="cookieacceptbgcolor" translate="label" type="text" sortOrder="11" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Button Background Color</label>
+                    <comment><![CDATA[set Button Background color for Cookie Notice]]></comment>
+                    <frontend_model>Magecomp\Cookiecompliance\Block\Color</frontend_model>
+                </field>
+                <field id="cookiemoreinfolinkcolor" translate="label" type="text" sortOrder="12" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>More Infor Link Color</label>
+                    <comment><![CDATA[set More Information Link Color for Cookie Notice]]></comment>
+                    <frontend_model>Magecomp\Cookiecompliance\Block\Color</frontend_model>
+                </field>
+                <field id="cookiecss" translate="label comment" type="textarea" sortOrder="13" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Style CSS</label>
+                    <comment><![CDATA[Apply CSS Changes for Cookie Notice]]></comment>
+                </field>
+
+            </group>
+        </section>
+    </system>
+</config>	

@@ -1,0 +1,50 @@
+<?php if ($block->isModuleEnabled()): ?>
+    <div id="magecomp-cookie-template" class="magecomp-cookie-template <?php echo $block->getCookiePosition(); ?>"
+         style="display: none;background-color: <?php echo $block->getCookieBgColor() ?>;">
+
+        <span class="cookietext"
+              style="color: <?php echo $block->getCookieTextColor() ?>;"><?php echo $block->getCookieText(); ?>
+        </span>
+
+        <a href="#" class="cookiehidelink" id="cookiehidelink"
+           style="background-color:<?php echo $block->getCookieAcceptBgColor(); ?> ">
+                <span class="cookiemoreinfotext" style="color:<?php echo $block->getCookieAcceptcolor(); ?>">
+                    <?php echo $block->getCookieHideText(); ?>
+                </span>
+        </a>
+
+        <span class="moreinfo">
+            <a href="<?php echo $block->getCookieMoreInfoLink(); ?>" class="cookiemoreinfolink"
+               target="<?php echo $block->getCookieMoreInforLinkTarget(); ?>"
+               style="color: <?php echo $block->getCookieMoreInforLinkColor(); ?>">
+                <span class="cookiemoreinfotext">
+                    <?php echo $block->getCookieMoreInfoText(); ?>
+                </span>
+            </a>
+        </span>
+
+
+    </div>
+
+    <?php if (strlen($block->getCookieCss())): ?>
+        <style type="text/css">
+            <?php echo $block->getCookieCss();?>
+        </style>
+    <?php endif; ?>
+
+    <script type="text/javascript">
+        requirejs(['jquery', 'jquery.cookie'], function (jQuery) {
+            (function ($) {
+                if ($.cookie('mc_cookie') != "true") {
+                    $('#magecomp-cookie-template').show();
+                }
+                $('#cookiehidelink').click(function (event) {
+                    event.preventDefault();
+                    $('#magecomp-cookie-template').hide();
+                    $.cookie('mc_cookie', "true", {expires: 40, path: '/'});
+                })
+            })(jQuery);
+        });
+    </script>
+
+<?php endif; ?>

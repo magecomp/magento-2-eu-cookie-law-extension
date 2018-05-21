@@ -1,0 +1,54 @@
+.magecomp-cookie-template {
+    min-height: 35px;
+    position: fixed;
+    z-index: 999;
+    padding: 5px;
+}
+
+.moreinfo {
+    margin-top: 15px;
+    position: absolute;
+}
+
+.top {
+    height: auto;
+    position: relative;
+    z-index: 999;
+    padding: 5px;
+    min-height: 60px;
+    top: 0;
+}
+
+.bottom {
+    height: auto;
+    position: fixed;
+    z-index: 999;
+    padding: 5px;
+    min-height: 60px;
+    bottom: 0;
+}
+
+.cookietext {
+    margin-left: 57px;
+    vertical-align: middle;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 70% !important;
+    float: left;
+}
+
+.cookiehidelink {
+    width: auto;
+    border: 1px solid;
+    border-radius: 4px;
+    float: left;
+    margin-right: 16px;
+    margin-top: 8px;
+    text-decoration: none !important;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}

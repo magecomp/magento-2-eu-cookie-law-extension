@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Magecomp_Cookiecompliance::css/cookiecompliance.css"/>
+    </head>
+    <body>
+        <referenceBlock name="head.additional">
+            <block class="Magecomp\Cookiecompliance\Block\Cookiecompliance" name="magecomp_head_cookiecompliance"
+                   template="Magecomp_Cookiecompliance::cookiehead.phtml"/>
+        </referenceBlock>
+        <referenceContainer name="after.body.start">
+            <block class="Magecomp\Cookiecompliance\Block\Cookiecompliance" name="magecomp_cookiecompliance"
+                   template="Magecomp_Cookiecompliance::cookie.phtml"/>
+        </referenceContainer>
+
+    </body>
+</page>
