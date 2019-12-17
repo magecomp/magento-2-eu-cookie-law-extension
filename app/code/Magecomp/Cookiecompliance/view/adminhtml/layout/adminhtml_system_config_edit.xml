@@ -4,5 +4,6 @@
     <head>
         <css src="jquery/colorpicker/css/colorpicker.css"/>
         <link src="jquery/colorpicker/js/colorpicker.js"/>
+        <css src="Magecomp_Cookiecompliance::css/logo.css"/>
     </head>
 </page>
