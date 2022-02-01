@@ -69,7 +69,7 @@ Once you have successfully installed the extension, go to Stores -> Configuratio
 
 **2. FB and GA Pixel Integration**
 
-**Facebook Pixel Enable:**Set this field to Yes if you want to integrate the Facebook Pixel.<br/>
+**Facebook Pixel Enable:** Set this field to Yes if you want to integrate the Facebook Pixel.<br/>
 **Facebook Pixel Code:** Enter your Facebook Pixel code in this field.<br/>
 **Google Analytics Enable:** Set this field to Yes if you want to integrate Google Analytics. <br/>
 **Google Analytics Code:** Enter your Google Analytics code in this field.<br/>
