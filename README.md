@@ -61,18 +61,18 @@ Once you have successfully installed the extension, go to Stores -> Configuratio
 Cookie Compliance: Set this field to Enable to activate the extension features.<br/>
 Cookie Text Message: Here you can enter a message to show to the user.<br/>
 More Information: This text will be shown in the button where additional information will be exhibited in front of the users.<br/>
-More Information Link: Here you can provide a link to the page where the users will be redirected when clicking More Info.
-More Information Link Target Area: From the Dropdown menu, you can select the target area of the link.
-Cookie Button Text: Here you can add a message which will be invisible once the user agrees.
+More Information Link: Here you can provide a link to the page where the users will be redirected when clicking More Info.<br/>
+More Information Link Target Area: From the Dropdown menu, you can select the target area of the link.<br/>
+Cookie Button Text: Here you can add a message which will be invisible once the user agrees.<br/>
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/1/_/1_configuration_7_2.webp)
 
 **2. FB and GA Pixel Integration**
 
-Facebook Pixel Enable: Set this field to Yes if you want to integrate the Facebook Pixel.
-Facebook Pixel Code: Enter your Facebook Pixel code in this field.
-Google Analytics Enable: Set this field to Yes if you want to integrate Google Analytics. 
-Google Analytics Code: Enter your Google Analytics code in this field.
+Facebook Pixel Enable: Set this field to Yes if you want to integrate the Facebook Pixel.<br/>
+Facebook Pixel Code: Enter your Facebook Pixel code in this field.<br/>
+Google Analytics Enable: Set this field to Yes if you want to integrate Google Analytics. <br/>
+Google Analytics Code: Enter your Google Analytics code in this field.<br/>
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/2/_/2_configuration_-_integrations.webp)
 
@@ -82,13 +82,13 @@ Google Analytics Code: Enter your Google Analytics code in this field.
 
 **4. Cookie Style**
 
-Cookie Notice Position: Choose your preferred place to put the Cookie bar
-Background color: From here you can easily give a background color to the cookie bar.
-Cookie Text Color: Pick the Cookie Text Color from this field.
-Button Text Color: Set a button text color for cookie notice.
-Button Background Color: Set a background color for the button background color.
-More Info Link Color: From here you can set a color to the more info link.
-Style CSS: From here you can apply CSS changes for Cookie Notice.
+Cookie Notice Position: Choose your preferred place to put the Cookie bar<br/>
+Background color: From here you can easily give a background color to the cookie bar.<br/>
+Cookie Text Color: Pick the Cookie Text Color from this field.<br/>
+Button Text Color: Set a button text color for cookie notice.<br/>
+Button Background Color: Set a background color for the button background color.<br/>
+More Info Link Color: From here you can set a color to the more info link.<br/>
+Style CSS: From here you can apply CSS changes for Cookie Notice.<br/>
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/3/_/3_configuration_-_conti.webp)
 
