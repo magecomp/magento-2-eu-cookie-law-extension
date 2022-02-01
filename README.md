@@ -6,35 +6,73 @@ Magento 2 Cookie Compliance extension by MageComp allows store owner to display 
 
 # Main Feature
 
-* easily set cookie consent message.
+* Set cookie consent message.
 
-* Can add custom text & links.
+* Customizable cookie notification bar
 
-* You can set link target area.
+* Set link target area
 
-* Can integrate analytics and facebook pixel.
+* Google Analytics and Facebook pixel integration
 
-* Can inherit theme style in button by adding CSS.
+* Personalize Cookie bar
+
+## Features
+
+* **Set cookie consent message**
+
+Take approval from customers to accept the Allow cookie option. Only then the cookies will be saved and the user details will be fetched.
+
+* **Customizable cookie notification bar**
+
+The Magento store owner can add customized text & links to the privacy page in the cookie bar.
+
+* **Set link target area**
+
+For ease, the store owner can also set a targeted link of the cookie.
+
+* **Google Analytics and Facebook pixel integration**
+
+You can also Integrate the Google Analytics and Facebook pixel by providing their respective codes. This will be very beneficial in fetching user data expeditiously.
+
+* **Personalize Cookie bar**
+
+The admin can place the cookie bar at their convenient position, provide the background and text color, and can also apply CSS Styles.
 
 # Benifits
 
-* **Option to enable extension from store backend.**
+* **Track and Collect Data Efficiently**
 
-* **Backend option to set cookie consent message.**
+Keep track of visits and activity to web pages and provide custom-made content to users.
 
-* **For convenience store admin can set link target area.**
+* **Customer approval based Data Collection**
 
-* **Admin can enable integration of analytics and facebook pixel as per business needs.**
+The important data of customers will only be gathered after their consent. 
 
-* **In addition, store admin can also inherit theme style in button by adding style CSS from backend.**
+* **Simple, Clean & Flexible to use**
+
+The module provides you with the easiest way to take consent from the Magento store visitors.
 
 ## Screenshot
 
 **1. Configration**
 
+Once you have successfully installed the extension, go to Stores -> Configuration to configure the extension for use.
+
+Cookie Compliance: Set this field to Enable to activate the extension features. 
+Cookie Text Message: Here you can enter a message to show to the user.
+More Information: This text will be shown in the button where additional information will be exhibited in front of the users.
+More Information Link: Here you can provide a link to the page where the users will be redirected when clicking More Info.
+More Information Link Target Area: From the Dropdown menu, you can select the target area of the link.
+Cookie Button Text: Here you can add a message which will be invisible once the user agrees.
+
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/1/_/1_configuration_7_2.webp)
 
-**2. Integration-1**
+**2. FB and GA Pixel Integration**
+
+Facebook Pixel Enable: Set this field to Yes if you want to integrate the Facebook Pixel.
+Facebook Pixel Code: Enter your Facebook Pixel code in this field.
+Google Analytics Enable: Set this field to Yes if you want to integrate Google Analytics. 
+Google Analytics Code: Enter your Google Analytics code in this field.
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/2/_/2_configuration_-_integrations.webp)
 
@@ -42,12 +80,29 @@ Magento 2 Cookie Compliance extension by MageComp allows store owner to display 
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/3/_/3_configuration_-_conti.webp)
 
-**4. Cookie compliance Notification on top**
+**4. Cookie Style**
+
+Cookie Notice Position: Choose your preferred place to put the Cookie bar
+Background color: From here you can easily give a background color to the cookie bar.
+Cookie Text Color: Pick the Cookie Text Color from this field.
+Button Text Color: Set a button text color for cookie notice.
+Button Background Color: Set a background color for the button background color.
+More Info Link Color: From here you can set a color to the more info link.
+Style CSS: From here you can apply CSS changes for Cookie Notice.
+
+![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/3/_/3_configuration_-_conti.webp)
+
+**5. Frontend**
+
+Frontend view of cookie compliance notice at the top position.
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/4/_/4_cookie_compliance_law_notification_on_top.webp)
 
-**5. Cookie compliance Notification on bottom**
-![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/5/_/5_cookie_compliance_law_notification_on_bottom.webp)
+## change log
+
+Version 1.0.1 Date : 11-10-2019
+
+Compatible with Magento 2.3.3 Latest Magento version
 
 ## Support
 
@@ -83,3 +138,24 @@ Email: [support@magecomp.com](mailto:support@magecomp.com)
 
 [Magento 2 Cash on Delivery Per Product/Category](https://magecomp.com/magento-2-cash-on-delivery-per-product-category.html)
 
+## Magento Marketplace Extensions By MageComp
+
+[Magebto 2 Price Calculator](https://marketplace.magento.com/magecomp-magento-2-price-calculator.html)
+
+[Magento 2 Admin Actions Log](https://marketplace.magento.com/magecomp-magento-2-admin-actions-log.html)
+
+[Magento 2 Notification Bar Pro](https://marketplace.magento.com/magecomp-magento-2-notification-bar-pro.html)
+
+[Magento 2 Virtual Keyboard](https://marketplace.magento.com/magecomp-magento-2-virtual-keyboard.html)
+
+[Magento 2 Force Login](https://marketplace.magento.com/magecomp-magento-2-force-login.html)
+
+[Magento 2 Store Pickup](https://marketplace.magento.com/magecomp-magento-2-store-pickup.html)
+
+[Magento 2 Frontend Product Editor](https://marketplace.magento.com/magecomp-magento-2-frontend-product-editor.html)
+
+[Magento 2 Google Address Lookup](https://marketplace.magento.com/magecomp-magento-2-google-address-lookup.html)
+
+[Magento 2 Facebook Pixel](https://marketplace.magento.com/magecomp-magento-2-facebook-pixel.html)
+
+[Magento 2 Minimum Order Fee](https://marketplace.magento.com/magecomp-module-orderfee.html)
