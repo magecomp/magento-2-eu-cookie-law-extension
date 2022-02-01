@@ -58,9 +58,9 @@ The module provides you with the easiest way to take consent from the Magento st
 
 Once you have successfully installed the extension, go to Stores -> Configuration to configure the extension for use.
 
-Cookie Compliance: Set this field to Enable to activate the extension features. 
-Cookie Text Message: Here you can enter a message to show to the user.
-More Information: This text will be shown in the button where additional information will be exhibited in front of the users.
+Cookie Compliance: Set this field to Enable to activate the extension features.<br/>
+Cookie Text Message: Here you can enter a message to show to the user.<br/>
+More Information: This text will be shown in the button where additional information will be exhibited in front of the users.<br/>
 More Information Link: Here you can provide a link to the page where the users will be redirected when clicking More Info.
 More Information Link Target Area: From the Dropdown menu, you can select the target area of the link.
 Cookie Button Text: Here you can add a message which will be invisible once the user agrees.
